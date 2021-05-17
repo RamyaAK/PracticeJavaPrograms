@@ -15,6 +15,6 @@ public class Palindrome {
                 isPalindrome = false;
             }
         }
-         System.out.println("The string is a "+isPalindrome);
+         System.out.println("The "+str +" is a Palindrome?  "+isPalindrome);
     }
 }

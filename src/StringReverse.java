@@ -14,7 +14,7 @@ public class StringReverse {
 
     public static void reverseUsingArray(char[] wordsArray) {
         for (int i = wordsArray.length - 1; i >= 0; i--) {
-            System.out.print(wordsArray[i]);
+            System.out.print(wordsArray[i]+" ");
         }
     }
 
