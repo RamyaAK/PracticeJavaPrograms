@@ -1,11 +1,12 @@
 // Java Program to reverse a String
 // without using inbuilt String function
+
 import java.util.regex.Pattern;
+
 public class ReverseWordsOrder {
 
     // Method to reverse words of a String
-    static String reverseWords(String str)
-    {
+    static String reverseWords(String str) {
 
         // Specifying the pattern to be searched
         Pattern pattern = Pattern.compile("\\s");
@@ -28,8 +29,7 @@ public class ReverseWordsOrder {
     }
 
     // Driver methods to test above method
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         String s1 = "Im learning java";
         System.out.println(reverseWords(s1));
 

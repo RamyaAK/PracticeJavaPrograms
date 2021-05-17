@@ -18,10 +18,10 @@ public class FirstNonRepeatingCharacter {
             } else {
                 map.put(c, 1);
             }
-    }
-        for(int i = 0; i < str.length(); i++) {
+        }
+        for (int i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
-            if(map.get(c)==1)
+            if (map.get(c) == 1)
                 System.out.println(c);
         }
     }

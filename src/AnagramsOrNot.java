@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class AnagramsOrNot {
-    public static void main(String args[]){
+    public static void main(String args[]) {
         // To check if 2 strings contains same chars or not irrespective of their position- Anagrams Ex: listen, silent
 
         Scanner scanner = new Scanner(System.in);
@@ -23,6 +23,6 @@ public class AnagramsOrNot {
 
         // Compare and print true or false
 
-        System.out.println("Are both Strings Anagrams?"+(Arrays.equals(arrStr1, arrStr2)));
+        System.out.println("Are both Strings Anagrams?" + (Arrays.equals(arrStr1, arrStr2)));
     }
 }

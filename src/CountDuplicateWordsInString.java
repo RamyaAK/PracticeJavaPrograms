@@ -10,16 +10,15 @@ public class CountDuplicateWordsInString {
         System.out.println("Enter the String");
         String str = scanner.nextLine();
 
-        String [] words = str.toLowerCase().split(" ");
+        String[] words = str.toLowerCase().split(" ");
 
         HashMap<String, Integer> hm = new HashMap<>();
 
-        for(String s:words){
-            if(hm.containsKey(s)){
-                hm.put(s,hm.get(s)+1);
-            }
-            else {
-                hm.put(s,1);
+        for (String s : words) {
+            if (hm.containsKey(s)) {
+                hm.put(s, hm.get(s) + 1);
+            } else {
+                hm.put(s, 1);
             }
         }
         System.out.println(hm);

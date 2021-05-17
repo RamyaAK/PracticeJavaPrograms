@@ -16,15 +16,14 @@ public class StringPoolExample {
 
         System.out.println(s2 == s4); //true
         System.out.println(s2.equals(s4)); //true
-        System.out.println(s4==s5); // true
+        System.out.println(s4 == s5); // true
         System.out.println(s4.equals(s5)); // true
 
         System.out.println(s5.equals(s6)); // true
-        System.out.println(s5==s6); // false
+        System.out.println(s5 == s6); // false
 
-        System.out.println(s3==s6); //false
+        System.out.println(s3 == s6); //false
         System.out.println(s3.equals(s6)); //true
-
 
 
     }

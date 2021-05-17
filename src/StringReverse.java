@@ -14,7 +14,7 @@ public class StringReverse {
 
     public static void reverseUsingArray(char[] wordsArray) {
         for (int i = wordsArray.length - 1; i >= 0; i--) {
-            System.out.print(wordsArray[i]+" ");
+            System.out.print(wordsArray[i]);
         }
     }
 
@@ -25,8 +25,8 @@ public class StringReverse {
         System.out.println("Enter the String to be reversed");
         String str = scanner.nextLine();
 
-        String words[] = str.split("\\s");
-        char[] wordsArray = str.replaceAll("\\s", "").toCharArray();
+        String words[] = str.split("\\s"); // java, learning, Im
+        char wordsArray[] = str.replaceAll("\\s", "").toCharArray();
 
         reverseUsingBuilder(words);
         reverseUsingArray(wordsArray);
